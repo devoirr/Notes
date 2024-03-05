@@ -1,0 +1,48 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/roman/RiderProjects/Notes/Notes/Notes.csproj": {}
+  },
+  "projects": {
+    "/Users/roman/RiderProjects/Notes/Notes/Notes.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/roman/RiderProjects/Notes/Notes/Notes.csproj",
+        "projectName": "Notes",
+        "projectPath": "/Users/roman/RiderProjects/Notes/Notes/Notes.csproj",
+        "packagesPath": "/Users/roman/.nuget/packages/",
+        "outputPath": "/Users/roman/RiderProjects/Notes/Notes/obj/",
+        "projectStyle": "PackageReference",
+        "skipContentFileWrite": true,
+        "configFilePaths": [
+          "/Users/roman/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "monoandroid13.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "monoandroid13.0": {
+            "projectReferences": {}
+          }
+        }
+      },
+      "frameworks": {
+        "monoandroid13.0": {
+          "dependencies": {
+            "FirebaseDatabase.net": {
+              "target": "Package",
+              "version": "[4.2.0, )"
+            },
+            "Xamarin.Android.Support.Design": {
+              "target": "Package",
+              "version": "[28.0.0.3, )"
+            }
+          }
+        }
+      }
+    }
+  }
+}
